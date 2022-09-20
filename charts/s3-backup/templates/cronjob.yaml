@@ -43,7 +43,7 @@ spec:
               {{- toYaml .Values.resources | nindent 14 }}
             volumeMounts:
               - name: config
-                mountPath: /config/s3_backup
+                mountPath: /config/s3-backup
               {{- if .Values.extraVolumeMounts }}
               {{- toYaml .Values.extraVolumeMounts | nindent 14 }}
               {{- end }}
