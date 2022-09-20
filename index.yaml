@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   s3-backup:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2022-09-20T14:40:40.200435741Z"
+    description: A Helm chart to backup s3 sites to S3 or SFTP from Kubernetes
+    digest: 8319ced3ac9ab5b18465dc83adfd0612c2047ccf4037c160c3d160dd77e82574
+    name: s3-backup
+    type: application
+    urls:
+    - https://ten7.github.io/s3-backup-helm/s3-backup-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 1.0.1
     created: "2022-09-20T14:31:28.200834659Z"
     description: A Helm chart to backup s3 sites to S3 or SFTP from Kubernetes
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://ten7.github.io/s3-backup-helm/s3-backup-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-20T14:31:28.198936712Z"
+generated: "2022-09-20T14:40:40.199696432Z"
