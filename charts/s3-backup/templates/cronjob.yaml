@@ -38,7 +38,7 @@ spec:
             command:
               - "bin/bash"
               - "-c"
-              - "s3_backup"
+              - "s3-backup"
             resources:
               {{- toYaml .Values.resources | nindent 14 }}
             volumeMounts:
